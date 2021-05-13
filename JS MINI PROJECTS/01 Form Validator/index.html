@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Register With Us</h1>
+      <div class="usernameBox">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter username"
+        />
+        <p class="err user-err">err</p>
+      </div>
+      <div class="emailBox">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter email" />
+        <p class="err email-err">err</p>
+      </div>
+      <div class="pass">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter password"
+        />
+        <i class="far1 far fa-eye" id="togglePassword"></i>
+        <p class="err pass-err">errr</p>
+      </div>
+      <div class="con-pass">
+        <label for="confirm-password">Confirm Password</label>
+        <input
+          type="password"
+          name="confirm-password"
+          id="confirm-password"
+          placeholder="Confirm password"
+        />
+        <i class="far2 far fa-eye" id="togglePassword"></i>
+        <p class="err con-pass-err">err</p>
+      </div>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

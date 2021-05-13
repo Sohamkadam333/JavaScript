@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding: 10px;
+}
+
+form {
+  margin: 10px auto 0px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+form h1 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+form label {
+  font-size: 19px;
+  text-align: left;
+}
+
+form input {
+  padding: 8px 15px;
+  border: 2px solid #ccc;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: none;
+}
+
+form p.err {
+  margin-bottom: 10px;
+  font-size: 15px;
+  opacity: 0;
+}
+
+form #submit {
+  padding: 6px;
+  cursor: pointer;
+  background-color: #04c0ff;
+  font-weight: 600;
+}
+
+form #password,
+form #confirm-password,
+form #username,
+form #email {
+  width: 100%;
+}
+
+form .far1 {
+  position: absolute;
+  right: 15px;
+  bottom: 196px;
+  cursor: pointer;
+}
+
+form .far2 {
+  position: absolute;
+  right: 15px;
+  bottom: 91px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
