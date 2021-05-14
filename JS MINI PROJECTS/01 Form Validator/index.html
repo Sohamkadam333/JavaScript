@@ -18,45 +18,51 @@
   </head>
   <body>
     <form>
-      <h1>Register With Us</h1>
-      <div class="usernameBox">
-        <label for="username">Username</label>
-        <input
-          type="text"
-          name="username"
-          id="username"
-          placeholder="Enter username"
-        />
-        <p class="err user-err">err</p>
+      <h2>Register With Us</h2>
+      <div class="form-content">
+        <div class="input-box input-box-username">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter username"
+          />
+          <small class="username-err">Error Message</small>
+        </div>
+        <div class="input-box input-box-email">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter email"
+          />
+          <small class="email-err">Error Message</small>
+        </div>
+        <div class="input-box input-box-password1">
+          <label for="password1">Password</label>
+          <input
+            type="password"
+            name="password1"
+            id="password1"
+            placeholder="Enter password"
+          />
+          <small class="password1-err">Error Message</small>
+        </div>
+        <div class="input-box input-box-password2">
+          <label for="password2">Confirm Password</label>
+          <input
+            type="password"
+            name="password2"
+            id="password2"
+            placeholder="Enter password again"
+          />
+          <small class="password2-err">Error Message</small>
+        </div>
+        <button id="submit">Submit</button>
       </div>
-      <div class="emailBox">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Enter email" />
-        <p class="err email-err">err</p>
-      </div>
-      <div class="pass">
-        <label for="password">Password</label>
-        <input
-          type="password"
-          name="password"
-          id="password"
-          placeholder="Enter password"
-        />
-        <i class="far1 far fa-eye" id="togglePassword"></i>
-        <p class="err pass-err">errr</p>
-      </div>
-      <div class="con-pass">
-        <label for="confirm-password">Confirm Password</label>
-        <input
-          type="password"
-          name="confirm-password"
-          id="confirm-password"
-          placeholder="Confirm password"
-        />
-        <i class="far2 far fa-eye" id="togglePassword"></i>
-        <p class="err con-pass-err">err</p>
-      </div>
-      <input id="submit" type="submit" value="Submit" />
     </form>
+    <script src="form.js"></script>
   </body>
 </html>
