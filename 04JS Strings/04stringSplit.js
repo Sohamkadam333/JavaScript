@@ -2,6 +2,7 @@
 
 let colors = 'red green blue purple';
 console.log(colors.split(' '));
+// split method converts a string to an array and return it
 
 // split takes two parameter 1.seperator 2.limit
 
