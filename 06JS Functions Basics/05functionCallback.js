@@ -90,24 +90,13 @@ function getData(url, success, faliure) {
         xhr.send();
 }
 
-const url1 = 'https://jsonplaceholder.typicode.com/todos/1';
-const url2 = 'https://jsonplaceholder.typicode.com/todos/2';
-const url3 = 'https://jsonplaceholder.typicode.com/todos/3';
-const url4 = 'https://jsonplaceholder.typicode.com/todos/4';
+const url1 = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=414001&date=31-05-2021';
 
 
 // callback hell
 getData(url1, function (message) {
         console.log(message);
-        getData(url2, function (message) {
-                console.log(message);
-                getData(url3, function (message) {
-                        console.log(message);
-                        getData(url4, function (message) {
-                                console.log(message);
-                        })
-                })
-        })
+
 })
 
 
