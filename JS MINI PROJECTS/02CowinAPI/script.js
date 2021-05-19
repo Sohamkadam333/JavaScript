@@ -29,8 +29,6 @@ fetchData().then((data) => {
                         const dosage = element.sessions;
 
                         for (key in dosage) {
-
-                                // console.log(dosage[key].available_capacity);
                         }
 
 
