@@ -1,0 +1,51 @@
+body {
+        height: 100vh;
+        background-color: #240046;
+}
+
+.container {
+        max-width: 500px;
+}
+
+input[type=text],
+input[type=text]:focus {
+        color: #fff;
+        border: none;
+        background: rgba(0, 0, 0, 0.3);
+        max-width: 500px;
+}
+
+.list-group-item {
+        background-color: #3c096c;
+        color: #fff;
+}
+
+
+
+.delete {
+        cursor: pointer;
+        padding: 5px;
+}
+
+.delete:hover {
+        background-color: rgba(255, 0, 0, 0.568);
+        border: none;
+        border-radius: 5px;
+}
+
+.todo-text {
+        cursor: pointer;
+}
+
+.todo-done {
+        text-decoration: line-through;
+}
+
+.time {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.200);
+}
+
+.filtered {
+        display: none !important;
+}
