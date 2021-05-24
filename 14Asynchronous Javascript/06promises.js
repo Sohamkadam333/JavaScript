@@ -21,9 +21,9 @@ const url4 = 'https://jsonplaceholder.typicode.com/todos/4';
 const url5 = 'https://jsonplaceholder.typicode.com/todos/5';
 const url6 = 'https://jsonplaceholder.typicode.com/todos/6';
 
-// function data(response, data) {
-//         console.log(response, data);
-// }
+function data(response, data) {
+        console.log(response, data);
+}
 
 // callback hell
 // getTodos(url1, function (response, data) {
@@ -84,4 +84,5 @@ const getData = function (url) {
 
 getData('https://jsonplaceholder.typicode.com/todos/1')
         .then((data) => console.log('Promise Resolved', data))
+
         .catch(err => console.log(err));

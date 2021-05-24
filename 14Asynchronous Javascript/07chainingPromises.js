@@ -48,14 +48,14 @@ const getData = function (url) {
 
 
 // promise chaining
-getData(url1).then((data) => {
-        console.log('Promise 1 resolved: ', data);
-        return getData(url2);
-}).then((data) => {
-        console.log('Promise 2 resolved: ', data);
-        return getData(url3);
-}).then((data) => {
-        console.log('Promise 3 resolved: ', data);
-}).catch((err) => {
-        console.log('Promise Rejected: ', err);
-})
+// getData(url1).then((data) => {
+//         console.log('Promise 1 resolved: ', data);
+//         return getData(url2);
+// }).then((data) => {
+//         console.log('Promise 2 resolved: ', data);
+//         return getData(url3);
+// }).then((data) => {
+//         console.log('Promise 3 resolved: ', data);
+// }).catch((err) => {
+//         console.log('Promise Rejected: ', err);
+// })
